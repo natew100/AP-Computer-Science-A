@@ -16,8 +16,5 @@ public class Pp24 {
         System.out.println("Hello my name is " + name + " and I am " + age + 
                 " years" + "\n" + "old. I'm enjoing my time at " + college 
                 + ", though" + "\n" + "I miss my pet " + petName + " very much!");
-
-        // TODO code application logic here
     }
-    
 }
