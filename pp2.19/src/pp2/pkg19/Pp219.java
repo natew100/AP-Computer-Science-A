@@ -1,10 +1,10 @@
-package pkg2.pkg19;
+package pp2.pkg19;
 import java.awt.Graphics;
 import java.applet.Applet;
 import java.awt.*;   
 
 
-public class Main extends Applet {
+public class Pp219 extends Applet {
     public void paint (Graphics page)
     {  
         int x =0;

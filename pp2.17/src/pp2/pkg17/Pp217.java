@@ -1,9 +1,9 @@
-package pkg2.pkg17;
+package pp2.pkg17;
 import java.awt.Graphics;
 import java.applet.Applet;
 import java.awt.*;   
 
-public class Main extends Applet {
+public class Pp217 extends Applet {
     public void paint (Graphics frame)
     {  
         setBackground (Color.blue);
