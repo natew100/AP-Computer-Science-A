@@ -1,20 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package pp2.pkg9;
+import java.util.Scanner;
 
-/**
- *
- * @author Nate
- */
+
 public class Pp29 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int numSecond,hour, minute, second;
+        Scanner scan = new Scanner (System.in);
+        System.out.print ("Enter Seconds:");
+        numSecond = scan.nextInt();
+        hour = numSecond / 3600;
+        minute = numSecond / 60 - hour * 60;
+        second = numSecond - minute * 60 - hour * 3600;
+        System.out.println ("Hours: " + hour);
+        System.out.println ("Minutes: " + minute);
+        System.out.println ("Seconds: " + second);
     }
-    
 }
