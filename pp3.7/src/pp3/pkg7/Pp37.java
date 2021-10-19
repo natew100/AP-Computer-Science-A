@@ -5,11 +5,11 @@ public class Pp37 {
     public static void main(String[] args) {
     double a, b,c, area, S;
     Scanner scanner = new Scanner(System.in);
-    System.out.print("Enter side a: ");
+    System.out.println("Enter side a: ");
     a= scanner.nextDouble();
-    System.out.print("\nEnter side b: ");
+    System.out.println("Enter side b: ");
     b= scanner.nextDouble();
-    System.out.print("\nEnter side c: ");
+    System.out.println("Enter side c: ");
     c= scanner.nextDouble();
     S=(a+b+c)/2;
     area=Math.sqrt(S*(S-a)*(S-b)*(S-c));
