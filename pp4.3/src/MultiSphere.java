@@ -6,8 +6,6 @@ public class MultiSphere {
     sphere1.setDiameter(10);
     System.out.println(sphere1.getArea());
     System.out.println(sphere1.getVolume());
-
-
     Sphere sphere2 = new Sphere(15);
     System.out.println(sphere2);
   }
