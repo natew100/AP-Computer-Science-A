@@ -1,5 +1,8 @@
+// nate wolf
+
 public class CarTest {
     public static void main(String[] args) {
+        // setting the info in the car object
         Car car1 = new Car();
         car1.setMake("Mazda");
         car1.setModel("cx5");

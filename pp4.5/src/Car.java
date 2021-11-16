@@ -1,9 +1,12 @@
+// nate wolf
+
 public class Car {
     private String make;
     private String model;
     private int year;
 
     public Car() {
+        // initialize car class
         make = "";
         model = "";
         year = 2021;
@@ -32,6 +35,7 @@ public class Car {
     
     @Override
     public String toString() {
+        // return to string method with the make, model, and year
         return "make='" + make + '\'' + ", model='" + model + '\'' + ", year=" + year;
     }
 }
