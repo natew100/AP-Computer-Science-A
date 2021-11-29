@@ -6,37 +6,18 @@ public class Pp513 {
     public static void main(String args[]) {
 
         try {
-            Scanner file1 = new Scanner(new File("file1.txt"));
-            Scanner file2 = new Scanner(new File("file2.txt"));
-            int line = 0, flag = 0;
-            while (true) {
-                String line1 = "", line2 = "";
-                if (file1.hasNextLine()) {
-                    line1 = file1.nextLine();
-                    flag++;
-
+            Scanner fileScan1 = new Scanner(new File("C:\\Users\\3009496\\Desktop\\AP-Computer-Science-A\\pp5.13\\src\\pp5\\pkg13\\file1"));
+            Scanner fileScan2 = new Scanner(new File("C:\\Users\\3009496\\Desktop\\AP-Computer-Science-A\\pp5.13\\src\\pp5\\pkg13\\file2"));
+            while (fileScan1.hasNext() && fileScan2.hasNext()) {
+                String file1Lines = fileScan1.nextLine();
+                String file2Lines = fileScan2.nextLine();    
+                if (!file1Lines.equals(file2Lines)) {
+                    System.out.println("File 1: " + file1Lines);
+                    System.out.println("File 2: " + file2Lines);
                 }
-
-                if (file2.hasNextLine()) {
-                    line2 = file2.nextLine();
-                    flag++;
-
-                }
-
-                line++;
-
-                if (!line1.equals(line2)) {
-                    System.out.println("Line " + line + " is different.");
-
-                }
-                if (flag == 0)
-                    break;
             }
-
         } catch (Exception e) {
-
             System.out.println("File not found : " + e.getMessage());
-
         }
     }
 }
