@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Pp62 {
     public static void main(String[] args) {
-       System.out.println("Please enter your words");
+       System.out.println("Enter a String: ");
         Scanner scan = new Scanner(System.in);
         String word = scan.nextLine();
         for(char a : word.toCharArray())
