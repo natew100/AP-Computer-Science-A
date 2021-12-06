@@ -7,6 +7,7 @@ public class Pp57 {
     public static void main(String[] args)
     {
         final int scissors = 0, rock = 1, paper = 2;
+        // init diff types
         int userselection, computerselection;
         String other; 
         Scanner scstr = new Scanner(System.in);
@@ -17,12 +18,14 @@ public class Pp57 {
         other = scstr.nextLine();
 
         while(other.equalsIgnoreCase("yes"))
+        // start loop
         {
          computerselection = rad.nextInt(2);
          System.out.println();
          System.out.println("0 for scissors, 1 for rock and 2 for paper: ");
          userselection = sc.nextInt();
-
+         
+         // if else case
          if((userselection == rock && computerselection == rock) || 
               (userselection == paper && computerselection == paper) ||
               (userselection == scissors && computerselection ==scissors))
