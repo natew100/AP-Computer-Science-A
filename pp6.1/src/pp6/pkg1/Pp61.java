@@ -2,7 +2,8 @@ package pp6.pkg1;
 import java.util.*;
 
 
-public class Pp61 {    public static void main(String[] args) {
+public class Pp61 {   
+    public static void main(String[] args) {
        Scanner s = new Scanner(System.in);
        int sum = 0;
        System.out.print("Enter a Number Greater Than 2 : ");

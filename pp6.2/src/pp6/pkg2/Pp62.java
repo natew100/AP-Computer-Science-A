@@ -7,6 +7,7 @@ public class Pp62 {
        System.out.println("Enter a String: ");
         Scanner scan = new Scanner(System.in);
         String word = scan.nextLine();
+        // for loop
         for(char a : word.toCharArray())
         {
             System.out.println(a);
