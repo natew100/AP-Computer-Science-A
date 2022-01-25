@@ -12,7 +12,7 @@ public class Pp82 {
 
         while (num >= -25 && num <= 25) {
             // Increment value at index num in count array by 1
-            count[num] += 1;
+            count[num + 25] += 1;
 
             // Ask user to enter another
             System.out.print("Enter a number between -25 and 25 ");
@@ -22,7 +22,7 @@ public class Pp82 {
         // Print count array
         for (int i = 0; i < 51; i++) {
             if (count[i] >= 1)
-                System.out.println(i + ": " + count[i]);
+                System.out.println((i - 25) + ": " + count[i]);
         }
   }
 }
