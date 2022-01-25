@@ -10,6 +10,7 @@ public class Pp85 {
         count=0;
         System.out.println("Enter Numbers: ");
         System.out.println("Enter any non number when done inputting values.");
+        //while loop here
         while(true){
             try{
                 double temp = input.nextDouble();
@@ -19,9 +20,10 @@ public class Pp85 {
                 break;
             }
         }
-      
+        // for loop
         for(int i=0;i<count; i++) mean += vals[i];
         mean = mean/count;
+        
         for(int i=0;i<count; i++) var += (vals[i]-mean)*(vals[i]-mean);
         var = var/count;
         var = Math.sqrt(var);

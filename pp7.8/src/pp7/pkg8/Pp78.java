@@ -1,16 +1,5 @@
 package pp7.pkg8;
 
-interface Lockable
-{
-    void setKey(int key);
-
-    void lock(int key);
-
-    void unlock(int key);
-
-   boolean locked();
-}
-
 class LockableClass implements Lockable
 {
     private int key;

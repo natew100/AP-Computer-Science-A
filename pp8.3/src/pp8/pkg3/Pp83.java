@@ -12,7 +12,7 @@ public class Pp83 {
     Scanner sc = new Scanner(System.in);
     int index = 0;
     /*Reading file*/
-    File file=new File("C:\\Users\\Nate.DESKTOP-PL52Q7Q\\Desktop\\AP-Computer-Science-A\\pp8.3\\src\\pp8\\pkg3\\num_file");
+    File file=new File("C:\\Users\\Administrator\\Desktop\\AP-Computer-Science-A\\pp8.3\\src\\pp8\\pkg3\\num_file");
     Scanner inputFile = new Scanner(file);
     try {
         while (inputFile.hasNext()) {
