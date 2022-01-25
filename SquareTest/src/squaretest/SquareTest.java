@@ -4,7 +4,7 @@ import java.io.*;
 
 class SquareTest {
     public static void main(String[] args) throws IOException {
-        File file=new File("C:\\Users\\Administrator\\Desktop\\AP-Computer-Science-A\\SquareTest\\src\\squaretest\\magicData");
+        File file=new File("C:\\Users\\3009496\\Desktop\\AP-Computer-Science-A\\SquareTest\\src\\squaretest\\magicData");
         Scanner scan = new Scanner(file);
 
         int count = 1; //count which square we're on
